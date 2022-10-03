@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TR_PAM_MAMAM</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mamam</string>
+    <string name="nav_header_subtitle">Informasi Kuliner Seputar Salatiga</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="logout">Log Out</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_modern_resto">Modern Restaurant</string>
+    <string name="menu_traditional_resto">Traditional Restaurant</string>
+    <string name="home_second">Home Second</string>
+    <string name="title_app">MAMAM</string>
+    <string name="title_login">Login</string>
+    <string name="title_activity_traditional__maps">Map</string>
+    <string name="title_activity_modern__maps">Map</string>
+    <string name="title_register">Registration</string>
+    <string name="title_activity_angkringan__map">Map</string>
+    <string name="title_activity_prasmanan__map">Map</string>
+    <string name="title_activity_sate__map">Map</string>
+    <string name="title_activity_kfc__map">Map</string>
+    <string name="title_activity_ph__map">Map</string>
+    <string name="title_activity_rooster_map">Map</string>
+    <string name="title_activity_steak_map">Map</string>
+    <string name="sate">Sate</string>
+    <string name="pizza_hut">Pizza Hut</string>
+    <string name="pizza_desc">Berbagi Bersama di Pizza Hut</string>
+    <string name="steak_desc">Kebersamaan adalah rasa paling nikmat</string>
+    <string name="sate_desc">Tempat makan sate khas Indonesia</string>
+    <string name="ayam_geprak">Ayam Geprak</string>
+    <string name="rooster_desc">Makanan Hits Zaman Now</string>
+    <string name="prasmanan_desc">Makan Kenyang harga bersahabat</string>
+    <string name="padang_title">Padang</string>
+    <string name="padang_desc">Makanan khas padang, ciri khas asli indonesia</string>
+    <string name="kfc">KFC</string>
+    <string name="kfc_desc">Jagonya ayam</string>
+    <string name="angkringan">Angkringan</string>
+    <string name="angkringan_desc">Menikmati makanan dengan santai</string>
+    <string name="map_btn">MAP</string>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "654725665556",
+    "firebase_url": "https://tr-pam-mamam-8fe5a.firebaseio.com",
+    "project_id": "tr-pam-mamam-8fe5a",
+    "storage_bucket": "tr-pam-mamam-8fe5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654725665556:android:e0ce6c59dc90a26aaba801",
+        "android_client_info": {
+          "package_name": "edu.ftiuksw.tr_pam_mamam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654725665556-1vrou5vb1t90eqflbdo1e6d7q4p8sh4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgrOcaVvXH8T0ZlV5dGUw6xYqEzwFioRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654725665556-1vrou5vb1t90eqflbdo1e6d7q4p8sh4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

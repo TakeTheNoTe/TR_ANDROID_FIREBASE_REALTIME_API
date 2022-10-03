@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ftiuksw.tr_pam_mamam">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_mamam"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_mamam_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ui.Modern_Resto_Folder.MAP.SteakMap"
+            android:label="@string/title_activity_steak_map"></activity>
+        <activity
+            android:name=".ui.Modern_Resto_Folder.MAP.RoosterMap"
+            android:label="@string/title_activity_rooster_map" />
+        <activity
+            android:name=".ui.Modern_Resto_Folder.MAP.PhMap"
+            android:label="@string/title_activity_ph__map" />
+        <activity
+            android:name=".ui.Modern_Resto_Folder.MAP.KfcMap"
+            android:label="@string/title_activity_kfc__map" />
+        <activity
+            android:name=".ui.Traditional_Resto_Folder.MAP.Sate_Map"
+            android:label="@string/title_activity_sate__map" />
+        <activity
+            android:name=".ui.Traditional_Resto_Folder.MAP.Prasmanan_Map"
+            android:label="@string/title_activity_prasmanan__map" />
+        <activity
+            android:name=".ui.Traditional_Resto_Folder.MAP.Angkringan_Map"
+            android:label="@string/title_activity_angkringan__map" />
+        <activity android:name=".ui.Modern_Resto_Folder.steak" />
+        <activity android:name=".ui.Modern_Resto_Folder.ph" />
+        <activity android:name=".ui.Modern_Resto_Folder.kfc" />
+        <activity android:name=".ui.Traditional_Resto_Folder.prasmanan" />
+        <activity android:name=".ui.Traditional_Resto_Folder.Angkringan" />
+        <activity android:name=".ui.Traditional_Resto_Folder.Sate" />
+        <activity android:name=".ui.Modern_Resto_Folder.Rooster_Chicken" />
+        <activity
+            android:name=".ui.Traditional_Resto_Folder.MAP.Padang_Food_Map"
+            android:label="@string/title_activity_traditional__maps" />
+        <activity android:name=".ui.Traditional_Resto_Folder.Padang_Food" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Registration" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
